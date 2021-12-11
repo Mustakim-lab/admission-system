@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lab Final</string>
+
+    <string-array name="Gender">
+        <item>None</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="program">
+        <item>None</item>
+        <item>C.S.E</item>
+        <item>E.E.E</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

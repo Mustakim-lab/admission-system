@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="7"
+    tools:context=".CalculateActivity">
+
+    <Spinner
+        android:id="@+id/spinner_program_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/programText_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@id/spinner_program_ID"
+        android:layout_toRightOf="@id/spinner_program_ID"
+        android:text="Select Your Program">
+
+    </TextView>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_semester_ID"
+        android:layout_below="@id/spinner_program_ID"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/semesterText_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/programText_ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@id/spinner_program_ID"
+        android:layout_toRightOf="@id/spinner_program_ID"
+        android:text="Select Your Semester">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/semesterText_ID"
+        android:layout_toRightOf="@id/spinner_semester_ID"
+        android:text="Show"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/resultBtn_ID">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/result_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultBtn_ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/spinner_semester_ID"
+        android:text="Total Amount: ">
+
+    </TextView>
+
+
+</RelativeLayout>
